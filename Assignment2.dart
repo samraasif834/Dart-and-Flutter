@@ -173,6 +173,12 @@ void main() {
   print(
       "Student Name:${studentNames[2]}\nScore Is :${studentNumbers[2]} \nPercentage Is: ${per3}%");
 
+//QUESTION 10
+//legal variables :
+//var num1 ,var my_name,var samra458,var y95,var ageOfStudent
+//illegal variables :886samraa,student$,class,get,while
+ 
+
 //QUESTION 11
   String cityName = "Hyderabad"; //Orginal String
 
