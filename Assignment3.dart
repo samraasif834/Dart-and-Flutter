@@ -4,7 +4,7 @@ void main() {
   //Assignment 3
 
   //QUESTION 1
-  var ballList = <String>['bilal', 'ali', 'owais', 'bilal', 'owais'];
+  List<String>balllist=['bilal', 'ali', 'owais', 'bilal', 'owais'];
   print([
     ...{
       ...ballList
