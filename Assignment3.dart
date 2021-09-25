@@ -42,9 +42,9 @@ void main() {
       break;
     }
     if (count == 0) {
-      print('It is not prime number');
+      print('It is prime number');
     } else {
-      print('this is prime number');
+      print('Not a prime number');
     }
   }
   //QUESTION 5
