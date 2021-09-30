@@ -4,7 +4,7 @@ void main() {
   //Assignment 3
 
   //QUESTION 1
-  List<String>balllist=['bilal', 'ali', 'owais', 'bilal', 'owais'];
+  List<String> ballList = ['bilal', 'ali', 'owais', 'bilal', 'owais'];
   print([
     ...{
       ...ballList
@@ -48,9 +48,9 @@ void main() {
     }
   }
   //QUESTION 5
-  var num = 7; //table of 5
+  var num = 7; //table of 7
   for (var i = 1; i <= 15; i++) {
-    print("Table Of 5 \n");
+    print("Table Of 7 \n");
     print('${num}X${i}=${num * i}');
   }
 
@@ -58,7 +58,7 @@ void main() {
   var fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry'];
   for (var j = 0; j < fruits.length; j++) {
     //loop for printing whole list
-    print('List Of Fruits:${fruits[j]}');
+    print(fruits[j]);
   }
 
 //QUESTION 7
@@ -111,6 +111,8 @@ void main() {
     print('Divide:${num1 / number2}'); //dividing both values
   } else if (sign == '%') {
     print('Modulus:${num1 % number2}'); //modulud of both value
+  } else {
+    print("error");
   }
 //QUESTION 10
   print('Enter letter'); //taking input
@@ -121,7 +123,12 @@ void main() {
       vowel == 'e' ||
       vowel == 'i' ||
       vowel == 'o' ||
-      vowel == 'u') {
+      vowel == 'u' ||
+      vowel == "A" ||
+      vowel == "E" ||
+      vowel == "I" ||
+      vowel == "O" ||
+      vowel == "U") {
     // multiple conditions
     //in one clause.
     print('true');
