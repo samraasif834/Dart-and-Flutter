@@ -65,7 +65,9 @@ class MyApp extends StatelessWidget {
                 primary: Colors.yellow,
                 onPrimary: Colors.black,
               ),
-              onPressed: () {},
+              onPressed: () {
+                showAboutDialog(context: context);
+              },
               child: const Text(
                 "Login",
                 style: TextStyle(fontSize: 25),
